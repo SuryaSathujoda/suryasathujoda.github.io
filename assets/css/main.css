@@ -145,12 +145,11 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
-table td,
-table th {
+table td {
   font-size: 1rem;
 }
 table th {
-  font-weight: bold;
+  font-size: 0.8rem;
 }
 
 a,
