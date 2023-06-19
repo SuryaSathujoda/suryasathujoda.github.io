@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://suryasathujoda.github.io/sitemap.xml
+Sitemap: https://suryasathujoda.com/sitemap.xml
