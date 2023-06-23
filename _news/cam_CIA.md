@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the Cambridge Image Analysis group in the Department of Applied Mathematics and Theoretical Physics as a Visiting Research Student.
+Joining the Cambridge Image Analysis group in the Department of Applied Mathematics and Theoretical Physics as a Visiting Research Student.
