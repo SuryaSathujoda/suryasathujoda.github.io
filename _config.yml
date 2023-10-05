@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Surya
-middle_name: 
+middle_name: T.
 last_name: Sathujoda
 email: suryasathujoda@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -271,7 +271,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags wil
 scholar:
 
   last_name: [Sathujoda]
-  first_name: [Surya, T.]
+  first_name: [Surya T.]
 
   style: apa
   locale: en

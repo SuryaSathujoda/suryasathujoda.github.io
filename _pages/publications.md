@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: The following is a list of publications which have been submitted for peer review.
+description: The following is a list of publications.
 years: [2023]
 nav: true
 nav_order: 1
