@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Data Scientist</p>
-    <p>Schlumberger</p>
+    <p>Data Scientist,</p>
+    <p>Schlumberger,</p>
     <p>Oxford, UK</p>
 
 news: true  # includes a list of news items
