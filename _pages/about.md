@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Masters Student</p>
-    <p>University of Cambridge</p>
-    <p>Cambridge, UK</p>
+    <p>Data Scientist</p>
+    <p>Schlumberger</p>
+    <p>Oxford, UK</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
