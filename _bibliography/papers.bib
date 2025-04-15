@@ -19,7 +19,7 @@
    selected={true},
 }
 
-@inproceedings{eage:/content/papers/10.3997/2214-4609.202437021,
+@inproceedings{eage/content/papers/10.3997/2214-4609.202437021,
    author = {Sathujoda, S. T. and Veeger, L. and Sheth, S. and Jönsthövel, T. and Yorke-Smith, N.},
    title = {Modeling Complex Fluid Flow in Porous Media Using Graph Neural Networks}, 
    booktitle = {European Conference on the Mathematics of Geological Reservoirs 2024},
@@ -56,22 +56,6 @@ We test the performance of the GNN model for (1) its ability to predict state va
       pdf={EPC-FNO.pdf},
       preview={EPC-FNO.jpg},
       selected={true}
-}
-
-@inproceedings{10.2118/216064-MS,
-    author = {Sheth, S. M. and Shaykhattarov, M. and Dias, D. and Sathujoda, S. T. and Coker, O.},
-    title = "{Physics Informed Machine Learning Models for Simulating CO2 Injection into Saline Aquifer}",
-    volume = {Day 1 Mon, October 02, 2023},
-    series = {Abu Dhabi International Petroleum Exhibition and Conference},
-    booktitle = {Abu Dhabi International Petroleum Exhibition and Conference},
-    pages = {D011S031R003},
-    year = {2023},
-    abstract = "{The injection of carbon dioxide (CO2) into saline aquifers is an important strategy for mitigating greenhouse gas emissions. However, accurately simulating this complex process is computationally expensive, requiring numerical models handling the underlying physics of the system ranging from thermal effects to geochemistry. In recent years, Physics Informed Machine Learning (PIML) models have emerged as promising complimentary tools to physical simulators, leveraging the power of machine learning while incorporating prior knowledge of the physical system.In this work, we present a PIML model for simulating CO2 injection into saline aquifers. This model is based on an auto-encoder formulation that compresses the state image, that is pressure and saturation distributions and trains a fully connected neural network that can predicts the evolution of the variables in time. The model consists of an encoder that performs the said compression, a transition layer which takes in the well controls and injection rates as inputs, and the decoder that projects the solution from the null space to the original physical space.The training dataset which includes spatial and temporal data for a limited ensemble of reservoir models with varied well controls is generated using a full fidelity physical simulator which performs reactive-transport calculations and models CO2 injection into a saline aquifer. A deep network is trained using TensorFlow and physical loss functions are augmented along with traditional reconstruction losses. The training of large field models is done using a domain decomposition- based algorithm that breaks up the physical domain into smaller sub-domains and the resulting training is about an order of magnitude faster than traditional full field algorithms. Once the training is performed, the model is deployed on a much larger ensemble with validation of random realizations using the physical simulator.We present results on a heterogenous three-dimensional subsurface model and highlight the potential benefits of PIML models, including reduced computational costs, improved accuracy, and increased flexibility. The resulting inference workflow is several folds faster than running traditional full fidelity simulators on an ensemble of realizations. Additional results are presented on cases with deformed geometry and complex structural elements such as faults and pinch out cells.}",
-    doi = {10.2118/216064-MS},
-    url = {https://doi.org/10.2118/216064-MS},
-    eprint = {https://onepetro.org/SPEADIP/proceedings-pdf/23ADIP/1-23ADIP/D011S031R003/3271780/spe-216064-ms.pdf},
-    preview={LL-E2CO.jpg},
-    selected={true},
 }
 
 @inproceedings{sathujoda2023physicsinformed,
