@@ -232,18 +232,18 @@
         <!-- Entry bib key -->
         <div id="10.2118/223907-MS" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Coupled Graph Neural Network and Fourier Neural Operator Architecture for Ensemble Workflows in 3d Reservoir Simulation</div>
+        <div class="title">Coupled Graph Neural Network and Fourier Neural Operator Architecture for Ensemble Workflows in 3D Reservoir Simulation</div>
         <!-- Author -->
         <div class="author">
         
 
-        Surya Teja Sathujoda, and Soham Sheth</div>
+        S. T. Sathujoda, and S. Sheth</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          Mar 2025
+          <em>In SPE Reservoir Simulation Conference</em>, Mar 2025
         </div>
         <div class="periodical">
           
@@ -295,7 +295,7 @@
         <div class="author">
         
 
-        S. Sathujoda, L. Veeger, S. Sheth, and
+        S. T. Sathujoda, L. Veeger, S. Sheth, and
           <span class="more-authors" title="click to view 2 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
@@ -322,6 +322,7 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           </div>
           
           <div class="badges">
@@ -329,7 +330,16 @@
               <span class="__dimensions_badge_embed__" data-doi="https://doi.org/10.3997/2214-4609.202437021" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Carbon capture and sequestration initiatives make new demands on modern reservoir simulators. To find optimal locations and volumes of CO2 to inject into a subsurface to maximize CO2 storage, we must simulate a large ensemble of injection cases. One possible solution to the computational complexity of this task is to employ machine-learning models which, after a one-off overhead cost of training, can infer and predict future states of a reservoir several orders of magnitude faster than traditional methods.
+
+Most previous work in the literature has primarily focused on either convolution-based methods or, more recently, neural operator-based methods, to predict the evolution of state variables. These architectures have shown promise in predicting on structured reservoir grids but lack the capability to extend the same level of accuracy to unstructured grids. Graph neural networks (GNNs) overcome this bottleneck by incorporating inductive biases arising from local messagepassing mechanisms, facilitating convolution operations over complex graphs and meshes.
+
+In this work, we present a novel autoregressive GNN autoencoder to predict time-varying state variables for an ensemble of CO2 injection cases. We implement a graph convolution network for the message-passing protocol and incorporate physics-informed edge weights between cell connections to guide flow. An exhaustive set of node features are used to train the model on the hyperbolic evolution of phase saturations while preserving the ellipticity in the pressure.
+
+We test the performance of the GNN model for (1) its ability to predict state variables for varying injection rates of CO2, (2) for the post-injection phase, and (3) under different unseen geological configurations. Training and testing are performed by constructing ensembles of 2D, 3D, and real field cases that best represent these scenarios. For the 2D regular grid case, we observe that the model can capture pressure and saturation values accurately, even for highly varying injection rates and with only a limited amount of data. This performance is maintained in the post-injection phase. A key advantage of GNNs is that they show a distinct ability for transfer learning on ensembles of unseen geological configurations. We observe that the model can predict the shape and intensity of wavefronts of certain cases with no prior exposure to the specific static properties during training. Similar results are produced for 3D grids and real field cases.</p>
+          </div>
         </div>
       </div>
 </li>
